@@ -41,3 +41,9 @@ I also used a for loop to go through the county_votes dictionary to retrieve the
 Here are the finalized results for the analysis:
 
 ![PyPoll Results.png](https://github.com/allysakarr/Election-analysis/blob/master/Images%20for%20PyPoll/PyPoll%20Results.png?raw=true).
+
+# Summary
+
+To conclude, we have determined that the county with the largest voter turnout was Denver. The breakdown of the votes was 10.5% for Jefferson county, 82.8% for Denver county, and 6.7% for Arapahoe county. Denver was the largest by a substantial amount, and now Tom and Seth can verify their audit for this congressional race.
+
+This organization of analysis can be applied outside of just the Congressional election for Colorado. This type of analysis can be used for senatorial and local elections as well. These elections will also require the number of votes per county and the number of votes per candidate. Outside of these two particular results, this type of data can be used to see where there are the most active voters within a region and also which areas prefer which voters. This way, for election purposes and marketing for campaigns, future candidates with the same ideologies as previous candidates can use this data to target their campaign efforts towards certain populations to garner more votes in certain regions.
