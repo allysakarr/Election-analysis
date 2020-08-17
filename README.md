@@ -31,7 +31,7 @@ I also used a for loop to go through the county_votes dictionary to retrieve the
 
 * A similar analysis was used for calculating the candidate voter results. To find the total amount of votes for a specific candidate, I ran a decision statement to see if the candidate_name was not in the list for candidate options. If the candidate name was not in the list, then I have the code add the candidate name into the data. If the candidate name was in the list, then I have the code add the name for the first time the name is mentioned or continue counting votes for that specific candidate. I then used a for lop to go through the candidate_votes dictionary to find the candidate names, which then allowed me to get the number of votes for that specific candidate. I put that into a percentage formula to find the percentages of voters each candidate received. 
 
-* I used a similar process to determine which candidate won, what their percentage of votes was, and what the winning vote count was. In order to do this, I used an if statement to find both the winning count vs the votes and the winning percentage vs the vote percentage. I have a snippet of the code placed here: 
+* I used a similar process to determine which candidate won, what their percentage of votes was, and what the winning vote count was. In order to do this, I used an if statement to find both the winning count vs the votes and the winning percentage vs the vote percentage. It was determined that Diana DeGette won by have 73.8% of the votes. I have a snippet of the code placed here: 
 
       if (votes > winning_count) and (vote_percentage > winning_percentage):
                  winning_count = votes
