@@ -25,18 +25,18 @@ I also used a for loop to go through the county_votes dictionary to retrieve the
 
 * To find the county with the highest voter turnout, I used a decision statement to see the winning county and its vote count. I took the vote values from the previous paragraph and related that to the variable "largest_county_votes". Here is a snippet of the code I used to determine this: 
 
-    if (votes > largest_county_votes): 
-              largest_county_votes = votes
-              largest_county = county_name
+      if (votes > largest_county_votes): 
+                 largest_county_votes = votes
+                 largest_county = county_name
 
 * A similar analysis was used for calculating the candidate voter results. To find the total amount of votes for a specific candidate, I ran a decision statement to see if the candidate_name was not in the list for candidate options. If the candidate name was not in the list, then I have the code add the candidate name into the data. If the candidate name was in the list, then I have the code add the name for the first time the name is mentioned or continue counting votes for that specific candidate. I then used a for lop to go through the candidate_votes dictionary to find the candidate names, which then allowed me to get the number of votes for that specific candidate. I put that into a percentage formula to find the percentages of voters each candidate received. 
 
 * I used a similar process to determine which candidate won, what their percentage of votes was, and what the winning vote count was. In order to do this, I used an if statement to find both the winning count vs the votes and the winning percentage vs the vote percentage. I have a snippet of the code placed here: 
 
-    if (votes > winning_count) and (vote_percentage > winning_percentage):
-                winning_count = votes
-                winning_candidate = candidate_name
-                winning_percentage = vote_percentage
+      if (votes > winning_count) and (vote_percentage > winning_percentage):
+                 winning_count = votes
+                 winning_candidate = candidate_name
+                 winning_percentage = vote_percentage
 
 Here are the finalized results for the analysis:
 
@@ -46,4 +46,8 @@ Here are the finalized results for the analysis:
 
 To conclude, we have determined that the county with the largest voter turnout was Denver. The breakdown of the votes was 10.5% for Jefferson county, 82.8% for Denver county, and 6.7% for Arapahoe county. Denver was the largest by a substantial amount, and now Tom and Seth can verify their audit for this congressional race.
 
-This organization of analysis can be applied outside of just the Congressional election for Colorado. This type of analysis can be used for senatorial and local elections as well. These elections will also require the number of votes per county and the number of votes per candidate. Outside of these two particular results, this type of data can be used to see where there are the most active voters within a region and also which areas prefer which voters. This way, for election purposes and marketing for campaigns, future candidates with the same ideologies as previous candidates can use this data to target their campaign efforts towards certain populations to garner more votes in certain regions.
+This organization of analysis can be applied outside of just the Congressional election for Colorado. This type of analysis can be used for senatorial and local elections as well. 
+
+For senatorial elections, you would simply replace the names of the candidates with the senatorial candidates and count the number of votes per area for that. For local elections, you would simply replace the names of the candidates with the people running in the local elections.
+
+These elections will also require the number of votes per county and the number of votes per candidate. Outside of these two particular results, this type of data can be used to see where there are the most active voters within a region and also which areas prefer which voters. This way, for election purposes and marketing for campaigns, future candidates with the same ideologies as previous candidates can use this data to target their campaign efforts towards certain populations to garner more votes in certain regions.
